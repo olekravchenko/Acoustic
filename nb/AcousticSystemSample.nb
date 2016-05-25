@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    194185,       3465]
-NotebookOptionsPosition[    193044,       3424]
-NotebookOutlinePosition[    193386,       3439]
-CellTagsIndexPosition[    193343,       3436]
+NotebookDataLength[    197519,       3544]
+NotebookOptionsPosition[    196124,       3497]
+NotebookOutlinePosition[    196466,       3512]
+CellTagsIndexPosition[    196423,       3509]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -456,7 +456,7 @@ Cell[BoxData[
       Hold[$CellContext`c$$], 0.1, 1, 0.1}, {
       Hold[$CellContext`\[Rho]$$], 1, 5, 1}, {
       Hold[$CellContext`t$$], 0, 100, 1}}, Typeset`size$$ = {
-    350., {208., 215.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    448., {77.5, 84.5}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`c$17921$$ = 
     0, $CellContext`\[Rho]$17922$$ = 0, $CellContext`t$17923$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -486,14 +486,14 @@ $CellContext`c$$ $CellContext`t$$])/
            2, ($CellContext`fp[$CellContext`c$$, $CellContext`\[Rho]$$, \
 $CellContext`x - $CellContext`c$$ $CellContext`t$$] - \
 $CellContext`fm[$CellContext`c$$, $CellContext`\[Rho]$$, $CellContext`x + \
-$CellContext`c$$ $CellContext`t$$])/(
-           2 $CellContext`\[Rho]$$ $CellContext`c$$)}, {$CellContext`x, 
+$CellContext`c$$ $CellContext`t$$])/((
+            2 $CellContext`\[Rho]$$) $CellContext`c$$)}, {$CellContext`x, 
            0, $CellContext`L}, PlotStyle -> Thick, 
           ImageSize -> $CellContext`imgSz]}], 
       "Specifications" :> {{$CellContext`c$$, 0.1, 1, 
          0.1}, {$CellContext`\[Rho]$$, 1, 5, 1}, {$CellContext`t$$, 0, 100, 
          1}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{401., {295., 302.}},
+     ImageSizeCache->{499., {152., 159.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -506,7 +506,56 @@ $CellContext`c$$ $CellContext`t$$])/(
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.673103627194289*^9, 3.67310365115866*^9}, {
   3.6731036828294716`*^9, 3.673103689036826*^9}, {3.6731037353394747`*^9, 
-  3.6731037515584025`*^9}}]
+  3.6731037515584025`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(L\\)\[NoBreak] in \
+\[NoBreak]\\!\\({x, 0, L}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6731721837953105`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(L\\)\[NoBreak] in \
+\[NoBreak]\\!\\({x, 0, L}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6731721839294147`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(L\\)\[NoBreak] in \
+\[NoBreak]\\!\\({x, 0, L}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.673172184038495*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Plot :: \
+plln\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6731721840695176`*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -3366,7 +3415,7 @@ Cell[BoxData[
       Hold[$CellContext`c$$], 0.1, 1, 0.1}, {
       Hold[$CellContext`\[Rho]$$], 1, 5, 1}, {
       Hold[$CellContext`t$$], 0, 100, 1}}, Typeset`size$$ = {
-    350., {350., 357.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    582., {135., 142.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
     Typeset`skipInitDone$$ = True, $CellContext`c$44751$$ = 
     0, $CellContext`\[Rho]$44752$$ = 0, $CellContext`t$44753$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -3400,14 +3449,14 @@ $CellContext`t$$])/
 $CellContext`x - $CellContext`c$$ $CellContext`t$$, $CellContext`y - \
 $CellContext`c$$ $CellContext`t$$] - $CellContext`fm2D[$CellContext`c$$, \
 $CellContext`\[Rho]$$, $CellContext`x + $CellContext`c$$ $CellContext`t$$, \
-$CellContext`y + $CellContext`c$$ $CellContext`t$$])/(
-           2 $CellContext`\[Rho]$$ $CellContext`c$$)}, {$CellContext`x, 
+$CellContext`y + $CellContext`c$$ $CellContext`t$$])/((
+            2 $CellContext`\[Rho]$$) $CellContext`c$$)}, {$CellContext`x, 
            0, $CellContext`Lx}, {$CellContext`y, 0, $CellContext`Ly}, Mesh -> 
           None, PlotPoints -> 50, ImageSize -> $CellContext`imgSz]}], 
       "Specifications" :> {{$CellContext`c$$, 0.1, 1, 
          0.1}, {$CellContext`\[Rho]$$, 1, 5, 1}, {$CellContext`t$$, 0, 100, 
          1}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{401., {437., 444.}},
+     ImageSizeCache->{633., {209., 216.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3419,12 +3468,36 @@ $CellContext`y + $CellContext`c$$ $CellContext`t$$])/(
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.673104695550396*^9, 3.6731047263291564`*^9}, 
-   3.673104756768897*^9, 3.673104801185438*^9}]
+   3.673104756768897*^9, 3.673104801185438*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RegionPlot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(Lx\\)\[NoBreak] in \
+\[NoBreak]\\!\\({x, 0, Lx}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"RegionPlot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.673172184151579*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"RegionPlot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(Lx\\)\[NoBreak] in \
+\[NoBreak]\\!\\({x, 0, Lx}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"RegionPlot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.673172184213627*^9}]
 }, Open  ]]
 },
 WindowSize->{759, 835},
 WindowMargins->{{Automatic, 572}, {63, Automatic}},
-FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 7, 2015)",
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -3441,31 +3514,37 @@ Notebook[{
 Cell[558, 20, 378, 9, 92, "Input"],
 Cell[939, 31, 161, 4, 42, "Input"],
 Cell[CellGroupData[{
-Cell[1125, 39, 971, 29, 182, "Input"],
+Cell[1125, 39, 971, 29, 112, "Input"],
 Cell[2099, 70, 328, 10, 48, "Output"],
 Cell[2430, 82, 735, 27, 57, "Output"],
 Cell[3168, 111, 457, 16, 36, "Output"],
 Cell[3628, 129, 452, 16, 57, "Output"],
 Cell[4083, 147, 244, 7, 31, "Output"]
 }, Open  ]],
-Cell[4342, 157, 998, 28, 150, "Input"],
+Cell[4342, 157, 998, 28, 132, "Input"],
 Cell[CellGroupData[{
-Cell[5365, 189, 1137, 30, 106, "Input"],
+Cell[5365, 189, 1137, 30, 72, "Input"],
 Cell[6505, 221, 7938, 156, 78, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14480, 382, 2441, 63, 397, "Input"],
-Cell[16924, 447, 3206, 61, 614, "Output"]
+Cell[14480, 382, 2441, 63, 289, "Input"],
+Cell[16924, 447, 3209, 61, 328, "Output"],
+Cell[20136, 510, 501, 10, 21, "Message"],
+Cell[20640, 522, 501, 10, 21, "Message"],
+Cell[21144, 534, 499, 10, 21, "Message"],
+Cell[21646, 546, 529, 11, 21, "Message"]
 }, Open  ]],
-Cell[20145, 511, 137, 4, 42, "Input"],
-Cell[20285, 517, 1222, 36, 150, "Input"],
+Cell[22190, 560, 137, 4, 42, "Input"],
+Cell[22330, 566, 1222, 36, 132, "Input"],
 Cell[CellGroupData[{
-Cell[21532, 557, 1521, 40, 144, "Input"],
-Cell[23056, 599, 163065, 2669, 592, "Output"]
+Cell[23577, 606, 1521, 40, 92, "Input"],
+Cell[25101, 648, 163065, 2669, 592, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[186158, 3273, 3278, 82, 433, "Input"],
-Cell[189439, 3357, 3589, 64, 931, "Output"]
+Cell[188203, 3322, 3278, 82, 325, "Input"],
+Cell[191484, 3406, 3592, 64, 442, "Output"],
+Cell[195079, 3472, 513, 10, 21, "Message"],
+Cell[195595, 3484, 513, 10, 21, "Message"]
 }, Open  ]]
 }
 ]
